@@ -1,0 +1,21 @@
+.NavigationItems {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+a:hover {
+    color: yellow;
+    transition: 1s;
+}

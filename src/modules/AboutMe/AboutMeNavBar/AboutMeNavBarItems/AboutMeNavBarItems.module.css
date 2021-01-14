@@ -1,0 +1,21 @@
+.AboutMeNavBarItems {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.AboutMeNavBarItems a {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    transition: 1s;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.AboutMeNavBarItems a:hover {
+    color: yellow;
+    transition: 1s;
+}

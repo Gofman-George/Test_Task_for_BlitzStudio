@@ -1,0 +1,42 @@
+.AboutMeScrollDown {
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+    filter: brightness(.5);
+}
+
+.AboutMeScrollDown:hover .ScrollDown__arrow{
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.AboutMeScrollDown__text {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+    line-height: 1.2;
+}
+
+.AboutMeScrollDown__arrow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    transition: 1s;
+}
+.AboutMeScrollDown img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 480px) {
+    .AboutMeScrollDown {
+        display: none;
+    }
+}

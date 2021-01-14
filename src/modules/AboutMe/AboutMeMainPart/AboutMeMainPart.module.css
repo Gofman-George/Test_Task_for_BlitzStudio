@@ -1,0 +1,37 @@
+.AboutMeMainPart {
+    width: 82%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+@media (max-width: 1600px) {
+    .AboutMeMainPart {
+        height: 600px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .AboutMeMainPart {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .AboutMeMainPart {
+        height: 400px;
+    }
+}
+
+@media (max-width: 769px) {
+    .AboutMeMainPart {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.AboutMeNavBar {
+    width: 93%;
+    height: 100px;
+    align-self: center;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .AboutMeNavBar {
+        display: none;
+    }
+}

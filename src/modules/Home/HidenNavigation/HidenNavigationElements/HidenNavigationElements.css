@@ -1,0 +1,23 @@
+.HidenNavigationElementsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+    transform: translateX(-150%);
+    transition: 1s;
+    width: 80%;
+    margin: auto;
+}
+
+.HidenNavigationElementsList a {
+    font-size: 44px;
+    line-height: 3;
+}
+.HidenNavigationElementsList.active {
+    transform: translateX(0%);
+    transition: 1s;
+}

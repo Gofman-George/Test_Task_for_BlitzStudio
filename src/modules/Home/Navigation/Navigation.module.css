@@ -1,0 +1,13 @@
+.Navigation {
+    width: 93%;
+    height: 100px;
+    align-self: center;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .Navigation {
+        display: none;
+    }
+}
